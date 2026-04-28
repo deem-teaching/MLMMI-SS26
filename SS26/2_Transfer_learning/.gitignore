@@ -1,0 +1,6 @@
+# Model checkpoints (large binaries, regenerable from scripts)
+models/*.pt
+registry/*.json
+# Raw dataset (downloaded by prepare_data.py)
+data/
+results.csv

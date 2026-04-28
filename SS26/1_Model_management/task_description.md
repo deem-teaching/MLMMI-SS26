@@ -24,7 +24,7 @@ https://www.cidrdb.org/cidr2015/Papers/CIDR15_Paper18.pdf
 ├── solution.ipynb            # main notebook orchestrating the pipeline (e.g. calling all scripts, only relevant for Python scripts)
 ├── data/
 │   ├── raw/                  # original dataset
-│   └── ds_v*/                # versioned datasets (train.csv, test.csv, metadata.json)
+│   └── ds_v*/                # versioned datasets (e.g. full.csv, train.csv, test.csv, metadata.json)
 ├── models/
 │   └── model_*/              # serialized model artifacts (e.g. .joblib)
 ├── registry/
